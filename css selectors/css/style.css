@@ -1,0 +1,66 @@
+
+h1 {
+    color: grey;
+}
+
+section{
+    color: grey;
+}
+
+hr {
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.right{
+    color: red;
+    text-align: right;
+}
+
+p.hometown { 
+    background: yellow;
+    font-size: x-large;
+  }
+p.name{
+    background: yellow;
+    font-size: x-large;
+}
+
+#para1{
+    background-color: blue;
+}
+h2,p{
+text-align: center;
+}
+
+div h4{
+    text-align: right;
+}
+
+div>h3{
+    background-color: red;
+}
+
+section + p{
+    outline: solid 1px blueviolet;
+}
+.weblink{
+    color: blue;
+}
+
+.weblink:hover{
+    color: black;
+}
+.weblink:active{
+    color: red;
+}
+.weblink:visited{
+    color: yellow ;
+}
+.pesudo-element::before{
+    content: "i'm " ;
+    color: red;
+}
+.pesudo-element::after{
+    content: "kandan" ;
+}
