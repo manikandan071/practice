@@ -1,0 +1,84 @@
+div {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px;
+  }
+
+  .blur-effect {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px lightblue;
+  }
+
+.blur-effect-radious {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: coral;
+    box-shadow: 10px 10px 5px 12px lightblue;
+  }
+
+  #example1 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+    margin: 20px;
+    height: 200px;
+  }
+  
+  #example2 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+    margin: 20px;
+    height: 200px;
+  }
+
+  .insert{
+    border: 1px solid;
+    padding: 20px;
+    height: 200px;
+    box-shadow: 20px 70px 5px 10px blueviolet inset;
+  }
+
+  .text-shadow{
+    text-shadow: 10px 20px yellowgreen;
+  }
+
+  .text-shadow-1{
+    text-shadow: 10px -20px yellowgreen;
+  }
+
+  .text-shadow-2{
+    font-size: 50px;
+    text-shadow: 50px 10px 10px blue;
+  }
+
+  .filter{
+    filter: blur(5px);
+  }
+
+  .filter-1{
+    filter: grayscale(100%);
+  }
+
+  .filter-2{
+    filter: hue-rotate(90deg);
+  }
+
+  .filter-3{
+    filter: invert(100%);
+  }
+
+  .filter-4{
+    filter: saturate(8);
+  }
+
+  .filter-5{
+    filter: contrast(100%) brightness(250%);
+  }
+
