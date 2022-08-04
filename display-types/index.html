@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+p {
+    color: yellowgreen;
+}
+
+p.ex1 {
+    display: none;
+}
+p.ex2 {
+    display: inline;
+    padding-top: 40px;
+}
+p.ex3 {
+    display: block;
+    padding-top: 50px;
+}
+p.ex4 {
+    display: inline-block;
+}
+
+.practice{
+    display: flex;
+    flex-wrap: wrap;
+}
+.first-box{
+    flex: 1 0 0;
+}
+.box-4{
+    flex: 0 0 auto;
+    width: 50%;
+}
+.main{
+    display: flex;
+    width: 800px;
+    height: 100px;
+}
+.box-a{
+    flex-grow: 1;
+}
+.box-b{
+    flex-grow: 2;
+}
+.box-c{
+    flex-grow: 1;
+}
+.box-d{
+    flex-grow: 2;
+}
+.main-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 400px;
+    border: 2px solid brown;
+}
+.box-e{
+    width: 200px;
+    height: 200px;
+}
+
+</style>
+</head>
+<body>
+    <h1>The display Property</h1>
+
+<h2>display: none:</h2>
+<div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex1">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: inline:</h2>
+<div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex2">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: block:</h2>
+<div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex3">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+
+<h2>display: inline-block:</h2>
+<div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. <p class="ex4">HELLO WORLD!</p> Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut.
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="practice">
+    <div class="first-box">
+        <p>first-box</p>
+    </div>
+    <div class="first-box">
+        <p>first-box</p>
+    </div>
+    <div class="first-box">
+        <p>first-box</p>
+    </div>
+    <div class="first-box box-4">
+        <p>first-box</p>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="main">
+    <div class="box-a" style="background-color: red;"></div>
+    <div class="box-b" style="background-color: blue;"></div>
+    <div class="box-c" style="background-color: gray;"></div>
+    <div class="box-d" style="background-color: green;"></div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="main-1">
+    <div class="box-e" style="background-color: red;"></div>
+    <div class="box-e" style="background-color: blue;"></div>
+    <div class="box-e" style="background-color: gray;"></div>
+    <div class="box-e" style="background-color: green;"></div>
+</div>
+
+</body>
+</html>
