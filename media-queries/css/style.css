@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 480px;
+    padding: 10px;
+}
+table{
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse:collapse;
+    width: 100%;
+}
+/* th{
+    background-color: rgb(107, 90, 122);
+}
+td{
+    background-color: rgb(178, 224, 224);
+}
+td,th{
+    border: 2px solid;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    font-size: 18px;
+    padding-left: 10px;
+    border: 2px solid grey;
+    background-color: grey;
+}
+p{
+    font-size: 14px;
+} */
+
