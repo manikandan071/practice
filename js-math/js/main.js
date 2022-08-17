@@ -40,13 +40,13 @@ var result8 = Math.sign(21.1);
 console.log('sign :',result8);
 
 var result9 = Math.pow(4,2);
-console.log('sign :',result9);
+console.log('pow :',result9);
 
 var result9 = Math.sqrt(64);
-console.log('sign :',result9);
+console.log('sqrt :',result9);
 
 var result10 = Math.abs(-21.1);
-console.log('sign :',result10);
+console.log('abs :',result10);
 
 console.log("The sine value of 90 degrees is " + Math.sin(90 * Math.PI / 180));
 
@@ -59,3 +59,10 @@ console.log(Math.log(8));
 console.log(Math.log2(8));
 
 console.log(Math.log10(1000));
+
+var result11 = Math.random();
+console.log('random:',result11);
+
+console.log(Math.random() * (100 - 1) + 1);
+
+console.log(Math.floor(Math.random() * (6 - 1) + 1));
