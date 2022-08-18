@@ -65,4 +65,12 @@ console.log('random:',result11);
 
 console.log(Math.random() * (100 - 1) + 1);
 
-console.log(Math.floor(Math.random() * (6 - 1) + 1));
+console.log(Math.floor(Math.random() * (100 - 1) + 1));
+
+var dice=Math.random();
+console.log(Math.floor(dice*(6-1)+1));
+
+console.log(Math.random());
+console.log(Math.random()*6);
+console.log(Math.floor(0.2*6+1));
+
