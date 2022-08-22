@@ -1,0 +1,119 @@
+.login-form{
+    width: 390px;
+    margin: 0 auto;
+    padding: 180px;
+    background-color: cadetblue;
+}
+.user-input{
+    display: flex;
+    justify-content: center;
+    padding: 90px 30px 50px 30px;
+    position: relative;
+    background-color: aquamarine;
+    border-radius: 30px;
+    box-shadow: 0 6px 8px cadetblue;
+}
+.user-in{
+    position: relative;
+}
+.user-in .icofont-ui-user{
+    position: absolute;
+    z-index: 5;
+    font-size: 40px;
+    left: 10px;
+    right: 0;
+    top: -140px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    background-color: rgb(44, 6, 77);
+}
+.user-in .icofont-ui-email{
+    position: absolute;
+    z-index: 4;
+    left: -265px;
+    right: 0;
+    top: 0;
+    margin: auto;
+    color: #fff;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 0;
+    background-color: rgb(44, 6, 77);
+    font-size: 20px;
+}
+.user-in .icofont-lock{
+    position: absolute;
+    z-index: 4;
+    left: -265px;
+    right: 0;
+    top: 49px;
+    margin: auto;
+    color: #fff;
+    width: 40px;
+    height: 39px;
+    text-align: center;
+    line-height: 39px;
+    border-radius: 0;
+    background-color: rgb(44, 6, 77);
+    font-size: 20px;
+}
+.mail-in{
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 45px;
+    background-color: rgba(63, 48, 95, 0.719);
+    border: 2px solid  rgba(63, 48, 95, 0.719);
+    color: rgb(255, 255, 255);
+}
+.mail-in:focus{
+    outline: 0;
+    border: 2px solid  rgba(56, 36, 99, 0.719);
+}
+::placeholder{
+    color: rgb(184, 154, 154);
+    letter-spacing: 1px;
+}
+.reminder{
+    display: block;
+}
+.reminder{
+    display: inline-block;
+    margin-top: 35px;
+    margin-left: -3px;
+}
+.user-input p{
+    display: inline;
+    font-size: 14px;
+}
+.user-input a{
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 90px;
+    color: black;
+}
+.user-click{
+    display: flex;
+    justify-content: center;
+}
+.user-click .btn{
+    width: 280px;
+    border: none;
+    background-color: aquamarine;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.user-click a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: bold;
+}
