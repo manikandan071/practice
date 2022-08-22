@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.banner-box{
+    width: 50%;
+    padding: 10px; 
+}
+.name{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow:  0 0 5px red;
+}
+
+.plan p{
+    display: none;
+}
+.plan2 p{
+    visibility: hidden;
+}
+.newspaper p::first-line{
+    color: blueviolet;
+}
+table{
+    width: 50%;
+    
+}
+table td{
+    box-shadow:  0 0 5px rgb(40, 60, 90);
+}
+h2{
+    color: rgb(40, 60, 90);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: brown;
+}
