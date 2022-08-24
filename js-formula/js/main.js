@@ -205,7 +205,7 @@ let new4=550;
 if(new1>new4){
 	if(new1>new2){
 		if(new1>new3){
-			console.log(new1+new3+new3+new4);
+			console.log(new1);
 		}
 		else{
 			console.log(new3);
