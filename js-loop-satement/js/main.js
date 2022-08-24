@@ -35,11 +35,9 @@ for(x=1; x <=10;x++){
 
 //32 check prime number or not
 
-let no=5;
+let no=7;
 let temp=0;
 for(m=2;m<=no-1;m++){
-	
-	console.log(no);
 	if(no%m==0){
 	temp=temp+1;
 	}
@@ -261,13 +259,14 @@ for (i10 = 0,len = cars.length; i10 < len; i10++){
   console.log(textcars);
 }
 
-let ji=123;
+let ji=1234;
 let rev=0;
 let rem=0;
 
 while(ji>0){
 	rem=ji%10;
 	rev=(rev*10)+rem;
+	
 	ji=Math.floor(ji/10);
 }
 console.log(rev);
@@ -308,5 +307,20 @@ else{
 	console.log("before old time");
 }
 
+//amstrong number
 
+let arm=153;
+let rev1=0;
+let equl=arm;
 
+while(arm>0){
+	rem1=arm%10;
+	rev1+=rem1*rem1*rem1;
+	arm=Math.floor(arm/10);
+}
+if(equl==rev1){
+	console.log("this is amstrong number");
+}
+else{
+	console.log("not amstrong number");
+}
