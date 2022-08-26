@@ -324,3 +324,16 @@ if(equl==rev1){
 else{
 	console.log("not amstrong number");
 }
+
+//addition given number
+
+
+let tt=12345;
+let addition=0;
+
+while(0<tt){
+	rem2=tt%10;
+	addition +=rem2;
+	tt=Math.floor(tt/10);
+}
+console.log(addition);
